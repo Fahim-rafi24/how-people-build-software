@@ -24,4 +24,35 @@
     #section-1 .div-2 h4{
         font-size: 15px;
     }
+    #section-3{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+    }
+    .card{
+        width: 380px;
+        height: auto;
+        margin: auto;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .card h4{
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .card p{
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .card img{
+        top: 10px;
+    }
+    .card span{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .card sub{
+        font-size: 10px;
+        font-weight: 200;
+    }
 }

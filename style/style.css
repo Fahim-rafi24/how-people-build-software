@@ -11,10 +11,12 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: #20293A;
+    
     font-family: "Roboto Condensed", sans-serif;
 }
-
+body{
+    background-color: #20293A;
+}
 header{
     height: 400px;
     width: 100%;
@@ -123,17 +125,69 @@ header{
 }
 
 
+#section-2{
+    width: 80%;
+    margin: auto;
+}
+#section-2 h1{
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 30px;
+}
+#section-2 p{
+    font-size: 24px;
+    font-weight: 300;
+    color: gray;
+}
 
 
 
-
-
-
-
-
-
-
-
+#section-3{
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+.card{
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #111729, #1D1B48);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: aliceblue;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 200;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card img{
+    position: relative;
+    top: 8px;
+}
+.card span{
+    font-size: 16px;
+    font-weight: 200;
+    color: aliceblue;
+    margin-right: 20px;
+}
+.card sub{
+    font-size: 14px;
+    font-weight: 100;
+    color: aliceblue;
+    margin-left: 20px;
+}
 
 
 

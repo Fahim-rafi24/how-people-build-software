@@ -16,4 +16,30 @@
         font-size: 14px;
         font-weight: 500;
     }
+    #section-1{
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 0px;
+    }
+    #section-1 .div-1{
+        bottom: 4vh;
+        left: 4vh;
+        width: 95px;
+    }
+    #section-1 .div-1 img{
+        height: 85px;
+    }
+    #section-1 .div-2{
+        display: flex;
+        width: 90vw;
+        border-radius: 15px;
+        margin-left: 5vw;
+        margin-bottom: 30px;
+        padding: 0px;
+        background-color: #111729;
+    }
+    #section-1 .div-2 h6{
+        border: none;
+    }
+    
 }

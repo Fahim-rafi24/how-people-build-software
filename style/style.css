@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.roboto-condensed{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #20293A;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header{
+    height: 400px;
+    width: 100%;
+    background-image: url(/media/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: grid;
+    justify-content: center;
+}
+
+
+
+#banner-search{
+    background-image: url('/media/c.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    height: 60px;
+    width: 30vw;
+    border: none;
+    border-radius: 12px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#banner-logo{
+    display: flex;
+    height: 100px;
+    margin-top: -90px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #111729;
+    display: none;
+}
+#banner-logo img{
+    width: 90px;
+    height: 90px;
+    background-color: #111729;
+}
+#banner-logo div{
+    margin-left: 60px;
+    padding-top: 10px;
+    background-color: #111729;
+}
+#banner-logo div h5{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: #111729;
+}
+#banner-logo div p{
+    font-size: 16px;
+    font-weight: 200;
+    color: aliceblue;
+    margin-top: 15px;
+    background-color: #111729;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

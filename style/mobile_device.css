@@ -1,0 +1,19 @@
+
+
+
+/* Mobile devices (480px and above) */
+@media (max-width: 640px) {
+    header {
+      height: 180px; /* Reduce the height for mobile devices */
+      background-position: top; /* Adjust the background position for mobile devices */
+    }
+    #banner-search{
+        padding-left: 30px;
+        height: 30px;
+        width: 60vw;
+        border-radius: 8px;
+        margin-top: 60px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
